@@ -6,9 +6,14 @@
 //
 
 #include <iostream>
+#include "Interface.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    Interface inter;
+    
+    Usr::startup();
+    inter.MainMenu();
+
     return 0;
 }
