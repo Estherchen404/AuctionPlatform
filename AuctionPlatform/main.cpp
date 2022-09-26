@@ -13,6 +13,7 @@ int main(int argc, const char * argv[]) {
     Interface inter;
     
     Usr::startup();
+    
     inter.MainMenu();
 
     return 0;
